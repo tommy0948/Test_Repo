@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    
+    
+    int i;
+    int sum = 0; 
+    for (i = 1; i < 11; i++) {    //10까지 더할려면 i가 10까지, i<11로 바꿉니다
+        sum = sum + i;
+    }
+
+    printf("1부터 10까지의 합: %d\n", sum);
+    if (sum % 2 == 0) { 
+        printf("결과는 짝수입니다.\n");    //작은 따옴표가 아닌 큰 따옴표로 바꿉니다
+    } else {
+        printf("결과는 홀수입니다.\n");    //세미콜론이 없습니다.
+    }
+
+    return 0;
+}
