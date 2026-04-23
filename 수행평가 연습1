@@ -4,8 +4,9 @@ int main() {
     int dan = 5; 
     int i;
 
-    for (i = 0; i < 9; i++) {
-        printf("%d * %d = %d\n", dan, i, dan * i)
+    for (i = 0; i < 9; i++)    //1-9까지 곱해야 함으로 i가 9까지 가야 합니다. 따라서 i<10으로 고쳐줍니다
+    {
+        printf("%d * %d = %d\n", dan, i, dan * i)    //세미콜론이 없습니다
     }
 
     return 0;
